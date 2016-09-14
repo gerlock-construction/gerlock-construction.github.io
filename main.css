@@ -1,3 +1,9 @@
+
+.container p{
+  fint-size: 25px;
+}
+
+
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
