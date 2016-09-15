@@ -1,7 +1,18 @@
 
-.container p{
-  fint-size: 25px;
+
+
+.list {
+  font-size: 15px;
 }
+
+.list p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+
 
 
 body {
@@ -37,10 +48,10 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('http://www.publicdomainpictures.net/pictures/30000/velka/wood-texture.jpg');
+  background-image: url('http://www.egmcorp.com/sites/default/files/WOODGRAIN_LIGHT_HERRINGBONE_CLOSEUP.jpg');
   background-size: cover;
   color: #ffffff;
-  height: 500px;
+  height: 250px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
@@ -60,6 +71,13 @@ section .row img {
   margin: 0 0 30px;
   width: 100%;
 }
+
+
+.grayscale {
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+
 
 .col-md-6 {
   margin: 0 0 30px;

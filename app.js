@@ -21,3 +21,15 @@ var main = function(){
 };
 
 $(document).ready(main);
+
+$(document).ready(function(){
+    
+    $("#col-sm-3").mouseenter(function(){
+        $("#col-sm-3").addClass("grayscale");
+    });
+    
+    $("#col-sm-3").mouseleave(function(){
+        $("#col-sm-3").addClass("grayscale");
+    });
+    
+});
