@@ -3,14 +3,11 @@
 ---
 @charset "utf-8";
 
-
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
     width: 70%;
     margin: auto;
 }
-
-
 
 .nav {
   float: right;
@@ -31,26 +28,25 @@ body {
   font-weight: 300;
 }
 
-
 .jumbotron {
   display: flex;
   align-items: center;
   background-image: url(/img/wood.jpg);
   background-size: cover;
   color: #337ab7;
-  height: 250px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
-}
 
-.jumbotron h2 {
-  font-size: 60px;
-  font-weight: 700;
-  margin: 0;
-}
+  .jumbo-title {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+  }
 
-.jumbotron h3 {
-  margin: 0 0 20px;
-
+  .jumbo-details {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.5;
+  }
 }
 
 section .row img {
@@ -62,9 +58,7 @@ section .row img {
   margin: 0 0 30px;
 }
 
-
 footer {
   font-size: 12px;
   padding: 20px 0;
 }
-
