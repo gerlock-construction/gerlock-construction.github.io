@@ -1,18 +1,18 @@
-
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
 
 
 .list {
   font-size: 15px;
+  color: #337ab7;
 }
 
 .list p {
   font-size: 20px;
   font-weight: bold;
 }
-
-
-
-
 
 
 body {
@@ -50,7 +50,7 @@ header p {
   align-items: center;
   background-image: url('http://www.egmcorp.com/sites/default/files/WOODGRAIN_LIGHT_HERRINGBONE_CLOSEUP.jpg');
   background-size: cover;
-  color: #ffffff;
+  color: #337ab7;
   height: 250px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
@@ -59,12 +59,11 @@ header p {
   font-size: 60px;
   font-weight: 700;
   margin: 0;
-  color: #fff;
 }
 
 .jumbotron h3 {
   margin: 0 0 20px;
-  color: #fff;
+
 }
 
 section .row img {
