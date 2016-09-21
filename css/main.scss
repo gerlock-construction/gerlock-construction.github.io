@@ -3,6 +3,14 @@
 ---
 @charset "utf-8";
 
+// a:hover {
+//     color: red;
+// }
+
+.hoverBox:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
     width: 70%;
@@ -30,8 +38,24 @@ color: #337ab7;
   text-align: center;
 }
 
+
 .container {
   padding: 0 25px;
+
+    span {
+    font-weight: 600;
+    font-size: 16px;
+    color: #285f8f
+  }
+
+  p {
+    font-weight: 500;
+  }
+
+  div > ul {
+    // font-size: 15px;
+    font-weight: 500;
+  }
 }
 
 @media (min-width: 768px){
@@ -80,7 +104,7 @@ body {
   text-shadow: 0.25px 0.25px 0.25px #000000;
 
   .jumbo-title {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
     margin: 0;
   }
@@ -95,11 +119,12 @@ body {
 section .row img {
   margin: 0 0 30px;
   width: 100%;
+
 }
 
-.col-md-6 {
-  margin: 0 0 30px;
-}
+// .col-md-6 {
+//   margin: 0 0 30px;
+// }
 
 footer {
   font-size: 12px;
