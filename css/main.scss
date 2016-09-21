@@ -9,18 +9,61 @@
     margin: auto;
 }
 
-.nav {
-  float: right;
-}
-
-.list {
-  font-size: 15px;
+.carousel-control.right, .carousel-control.left{
+  background-image: none;
   color: #337ab7;
+  width: 5%;
 }
 
-.list p {
-  font-size: 20px;
-  font-weight: bold;
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+//all navbar coloring
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-brand {
+color: #337ab7;
+}
+
+.navbar-default .navbar-nav > li > a {
+  text-align: center;
+}
+
+.container {
+  padding: 0 25px;
+}
+
+@media (min-width: 768px){
+  .container {
+    padding: 0 125px;
+  }
+}
+
+@media (min-width: 992px){
+  .container {
+    padding: 0 200px;
+  }
+}
+
+
+// i want this off for only index page
+// @media (min-width: 1200px){
+//   .container {
+//     padding: 0 400px;
+//   }
+// }
+
+
+
+.navbar-default .navbar-nav > li > a:hover{
+  font-weight: 600;
+  color: #285f8f;
+}
+
+.blue {
+  // font-size: 15px;
+  color: #337ab7;
 }
 
 body {
@@ -61,4 +104,4 @@ section .row img {
 footer {
   font-size: 12px;
   padding: 20px 0;
-}
+ }
