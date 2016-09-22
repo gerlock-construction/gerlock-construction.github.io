@@ -27,6 +27,24 @@
     width: 100%;
 }
 
+.carousel-indicators{
+  bottom: 0;
+}
+
+.carousel-caption
+      {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 10;
+        padding-top: 5px;
+        padding-bottom: 25px;
+        color: #fff;
+        text-align: center;
+        background: rgba(0,0,0,0.3);
+      }
+
 //all navbar coloring
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-nav > .active > a,
